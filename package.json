@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "full_list.json"
+    "full_list.json",
+    "itaiji_list.json"
   ],
   "scripts": {
     "build": "tsc",
