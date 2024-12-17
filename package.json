@@ -1,0 +1,19 @@
+{
+  "name": "kanji-processor",
+  "version": "1.0.0",
+  "description": "Kanji variant processor for Yomitan",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "full_list.json",
+    "itaiji_list.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
