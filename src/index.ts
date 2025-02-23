@@ -1,6 +1,6 @@
 import { KanjiMapping } from './types';
-import mappingList from '../full_list.json';
-import itaijiList from '../itaiji_list.json';
+import mappingList from './full_list.json';
+import itaijiList from './itaiji_list.json';
 
 class KanjiProcessor {
     private mappings: KanjiMapping[];
